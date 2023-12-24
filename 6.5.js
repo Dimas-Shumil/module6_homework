@@ -1,4 +1,3 @@
-const pow = (x, n) => {
-    return Math.pow(x, n)
-}
-pow(1, 100)
+const myPow = (x, n) => x**n;
+
+console.log(myPow(5,3))
